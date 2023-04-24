@@ -8,7 +8,7 @@ from flask import current_app
 
 def send_request(method, api_url, params=None, data=None):
     api_key = current_app.config['SOQUEST_APIKEY']
-    api_url = 'api?api-key={}'.format(api_key)
+    api_url = '{api_url}?api-key={key}'.format(api_url=api_url, key=api_key)
 
     r = None
     if method == 'POST':

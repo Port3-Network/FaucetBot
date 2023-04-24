@@ -23,6 +23,9 @@ class DiscordRobot(commands.Cog):
         """
         Pass the address as a parameter, and then send the token to that address.
         """
+        if not address:
+            await ctx.channel.send('Missing address, e.g: `!faucet 0x4838B106FCe9647Bdf1E7877BF73cE8B0BAD5f97`')
+
         campaign_code = 'gy6930eNFr' # campaign require user to finish
         prize_code = '1682264693-1' # prize match this airdrop
 
