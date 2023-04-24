@@ -27,3 +27,5 @@ You can use supervisor or nohup to run the bot as a daemon.
 
 ## Try in Discord
 Try using the Discord platform to access the faucet bot, or visit the following link to try it [here](https://discord.com/api/oauth2/authorize?client_id=996239519928037437&permissions=116736&scope=bot)
+
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/105910684/233998943-f4798b27-ea7a-45ff-8b87-faee53166d08.png">
