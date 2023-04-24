@@ -5,6 +5,7 @@ import discord
 from flask import current_app
 from discord.ext import tasks
 from discord.ext import commands
+from soquest_api import get_winners
 
 
 class DiscordRobot(commands.Cog):
