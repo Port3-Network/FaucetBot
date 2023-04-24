@@ -30,7 +30,7 @@ class DiscordRobot(commands.Cog):
         prize_code = '1682264693-1' # prize match this airdrop
 
         white_list = get_winners(campaign_code, prize_code)
-        if address not in white_list:
+        if address not in white_list['winners']:
             await ctx.channel.send('You are not eligble, Please complete Quest first: \nhttps://soquest.xyz/space/port3network/campaign/gy6930eNFr')
         else:
             # TODO implement send transaction here
